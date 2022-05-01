@@ -2,6 +2,9 @@
 <head>
   <style>
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
 ul {
   list-style-type: none;
 margin: 0;
@@ -12,9 +15,11 @@ li {
   display: inline;
 }
 
-    body {
-      background-color: IndianRed;
-    }
+body {
+  background-color:  IndianRed;
+}
+
+
 img { max-width: 60%;}
 #imageBox { display: flex;
 }
@@ -24,34 +29,84 @@ img { max-width: 60%;}
 }
 .flex-container > div {
   background-color: #556B2F;
-  margin: 100px;
+  margin: 10px;
   padding: 80px;
   font-size: 200px;
 }
 h1 {text-align: center;}
 p {text-align: center;}
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #999;
+}
+
+
+.topnav a {
+  float: left;
+  color: #SlateBlue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: SlateBlue;
+}
+
+.topnav a.active {
+  background-color: #SlateBlue;
+  color: white;
+}
+
+
+
+
+
+body {
+  font-family: 'Syne Mono', monospace;
+}
+
+body {
+  background-color: IndianRed;
+}
+
+
+
     </style>
     </head>
     <body>
 
 
 
+
       <img src="images/note.png" alt="note.png" width="70" height="70">
       <div id="imageBox">
-        <ul>
-          <li><a href="#Index">Home</a></li>
-          <li><a href="#Payment">Payment</a></li>
-          <li><a href="#About Us">About Us</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
-          <li><a href="#Videos">Videos</a></li>
-            </ul>
+<ul>
+
+  <div class="topnav">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Payment.html">Payment</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contacts.html">Contacts</a></li>
+        <li><a href="Videos.html">Videos</a></li>
+</ul>
+
+
  </div>
-      
+
 
          <div class="flex-container">
 
         <img src="images/sage.jpg" alt="sage.jpg"    width="400" height="310">
-<img src="images/true-crime1.jpg" alt="true-crime1.jpg" width="250" height="310">
+<img src="images/detective1.jpg" alt="detective1.jpg" width="250" height="310">
     <h1><p>Welcome to Note Worthy Investigations!</p></h1>
         </div>
 

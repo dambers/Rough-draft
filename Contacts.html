@@ -1,12 +1,10 @@
 <html>
 <head>
+  <style>
 
 
-  <style type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-  body{
-  background-image: url("max.jpg");
-}
 ul {
   list-style-type: none;
 margin: 0;
@@ -21,18 +19,88 @@ li {
       background-color: IndianRed;
     }
 
+    .flex-container {
+      display: flex;
+      background-color: DarkOliveGreen;
+    }
+    .flex-container > div {
+      background-color: #556B2F;
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+
+    .topnav {
+      overflow: hidden;
+      background-color: #999;
+    }
+
+
+    .topnav a {
+      float: left;
+      color: #SlateBlue;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: SlateBlue;
+    }
+
+    .topnav a.active {
+      background-color: #SlateBlue;
+      color: white;
+    }
+
+
+
+    body {
+      font-family: 'Syne Mono', monospace;
+    }
+
+
 
   </style>
   </head>
   <body>
+
+
     <div id="imageBox">
-      <ul>
-        <li><a href="#Index">Home</a></li>
-        <li><a href="#Payment">Payment</a></li>
-        <li><a href="#About Us">About Us</a></li>
-        <li><a href="#Contacts">Contacts</a></li>
-        <li><a href="#Videos">Videos</a></li>
-          </ul>
+<ul>
+
+<div class="topnav">
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Payment.html">Payment</a></li>
+      <li><a href="About Us.html">About Us</a></li>
+      <li><a href="Contacts.html">Contacts</a></li>
+      <li><a href="Videos.html">Videos</a></li>
+</ul>
+
+
+</div>
+
+  <div class="flex-container">
+<img src="images/note.png" alt="note.png" width="70" height="70">
+
+      <div class="flex-container">
+
+     <img src="images/phoneme.jpeg" alt="phoneme.jpg"    width="400" height="500">
+
+     <h3><p>Contact Information:</p></h3>
+       <h1><p>Houston Office: 346-100-0000</p></h1>
+     <h1><p>Baton Rouge Office: 225-000-0000</p></h1>
+     </div>
+
+
+
+
+ </div>
+
 
     </div>
 
